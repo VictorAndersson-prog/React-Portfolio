@@ -2,25 +2,27 @@ import React from "react";
 import "./Kompetens.css";
 
 export default function Kompetens() {
-    const kompetenser = ["React", "Javascript", "HTML & CSS", "Git"];
+    const kompetenser = [
+        ["React", "60%"],
+        ["Javascript", "70%"],
+        ["HTML & CSS", "85%"],
+        ["Git", "60%"],
+        ["MongoDB", "50%"],
+        ["NodeJS", "60%"],
+    ];
     return (
         <div>
-            <p className="text">{kompetenser[0]}</p>
-            <span className="progress-bar">
-                <span className="filler"></span>
-            </span>
-            <p className="text">{kompetenser[1]}</p>
-            <span className="progress-bar">
-                <span className="filler"></span>
-            </span>
-            <p className="text">{kompetenser[2]}</p>
-            <span className="progress-bar">
-                <span className="filler"></span>
-            </span>
-            <p className="text">{kompetenser[3]}</p>
-            <span className="progress-bar">
-                <span className="filler"></span>
-            </span>
+            {kompetenser.map((kompetens) => (
+                <>
+                    <p className="text">{kompetens[0]}</p>
+                    <span className="progress-bar">
+                        <span
+                            className="filler"
+                            style={{ "--fill-width": kompetens[1] }}
+                        ></span>
+                    </span>
+                </>
+            ))}
         </div>
     );
 }
