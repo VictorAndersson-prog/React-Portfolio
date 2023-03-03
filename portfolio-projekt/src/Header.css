@@ -2,13 +2,21 @@
     padding: 0;
     margin: 0;
 }
+:root {
+    --bg-color: #ccc7b9;
+    --text-color: #f1e8b8;
+}
+
+body {
+    background-color: var(--bg-color);
+}
 .head-container {
     height: 50vh;
     width: 100vw;
     background-image: url("https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=903&q=80");
     background-size: 100vw 150%;
     background-repeat: no-repeat;
-    border-bottom: 2px solid white;
+    border-bottom: 12px solid #664048;
     position: relative;
 }
 .overlay {
@@ -28,5 +36,5 @@
 
 .navbar-text {
     margin-top: 20px;
-    color: rgb(227, 214, 214);
+    color: var(--text-color);
 }
