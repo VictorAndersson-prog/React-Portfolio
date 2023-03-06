@@ -1,3 +1,10 @@
 :root {
+    --bg-color: #3b3949;
+    --text-color: #ffeed6;
+    --dark-text-color: #434a42;
+    --clear-color: rgba(255, 255, 255, 0.1)
+    --filler: #27474e;
+    --boxshadow: 2px 2px 2px rgb(0 0 0 / 10%);
+    --blur: blur(3px);
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }

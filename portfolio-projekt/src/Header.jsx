@@ -4,8 +4,8 @@ import "./Header.css";
 export default function header() {
     return (
         <div className="head-container">
-            <div className="overlay"></div>
             <nav className="navbar-container">
+                <span class="material-symbols-outlined">deployed_code</span>
                 <h4 className="navbar-text">Home</h4>
                 <h4 className="navbar-text">Projects</h4>
                 <h4 className="navbar-text">Competence</h4>

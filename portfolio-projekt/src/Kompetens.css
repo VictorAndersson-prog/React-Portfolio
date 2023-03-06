@@ -1,24 +1,33 @@
-:root {
-    --filler: #ff9b71;
-}
 * {
     margin: 0;
     padding: 0;
+}
+.progress-bar-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.text {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .progress-bar {
     display: block;
     height: 15px;
-    width: 200px;
+    width: 275px;
     border-radius: 8px;
     background-color: gray;
+    margin: 8px;
 }
 
 .filler {
     border-radius: 8px;
     display: flex;
     height: 100%;
-    background-color: var(--filler);
+    background-color: var(--text-color);
     animation: transitionIn 1s forwards ease-out;
 }
 

@@ -13,7 +13,7 @@ export default function Kompetens() {
     return (
         <div>
             {kompetenser.map((kompetens) => (
-                <>
+                <div className="progress-bar-container">
                     <p className="text">{kompetens[0]}</p>
                     <span className="progress-bar">
                         <span
@@ -21,7 +21,7 @@ export default function Kompetens() {
                             style={{ "--fill-width": kompetens[1] }}
                         ></span>
                     </span>
-                </>
+                </div>
             ))}
         </div>
     );
