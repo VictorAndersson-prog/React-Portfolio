@@ -10,3 +10,7 @@
     --blur: blur(4px);
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
+
+a{
+    text-decoration: none;
+}
