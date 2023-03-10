@@ -1,9 +1,10 @@
 import React from "react";
 import "./About.css";
+import Exp from "./Exp";
 export default function About() {
     return (
         <div className="about-container">
-            <div className="about">
+            <div className="about cards">
                 <h1>
                     Hej mitt namn är Victor Andersson och jag är en
                     webbutvecklare
@@ -14,12 +15,17 @@ export default function About() {
                     dicta!
                 </p>
             </div>
-            <div className="img-container">
-                <img
-                    src="../public/img/EBM0871.jpg"
-                    alt="porträtt"
-                    style={{ width: "15rem" }}
-                />
+            <div>
+                <div className="img-container">
+                    <img
+                        src="../public/img/EBM0871.jpg"
+                        alt="porträtt"
+                        style={{ width: "15rem" }}
+                    />
+                </div>
+                <div className="exp-container cards">
+                    <Exp />
+                </div>
             </div>
         </div>
     );

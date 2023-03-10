@@ -16,7 +16,7 @@
 
 .progress-bar {
     display: block;
-    height: 15px;
+    height: 8px;
     width: 275px;
     border-radius: 8px;
     background-color: gray;
@@ -27,7 +27,7 @@
     border-radius: 8px;
     display: flex;
     height: 100%;
-    background-color: var(--text-color);
+    background-color: #999cf8;
     animation: transitionIn 1s forwards ease-out;
 }
 
