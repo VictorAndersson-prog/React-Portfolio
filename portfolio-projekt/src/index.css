@@ -2,8 +2,9 @@
     max-width: 100%;
     overflow-x: hidden;
     --bg-color: #3b3949;
-    --text-color: rgb(255, 235, 235);
+    --text-color: rgb(255, 255, 255);
     --dark-text-color: #434a42;
+    --blue-text: #999cf8
     --clear-color: rgba(255, 255, 255, 0.1)
     --filler: #27474e;
     --boxshadow: 2px 2px 2px rgb(0 0 0 / 10%);
